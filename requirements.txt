@@ -5,3 +5,5 @@ tqdm
 tiktoken>=0.7.0
 more-itertools
 triton>=2.0.0,<3;platform_machine=="x86_64" and sys_platform=="linux" or sys_platform=="linux2"
+pip install --download=/tmp -r requirements.txt
+pip install --user --no-index --find-links=/tmp -r requirements.txt
